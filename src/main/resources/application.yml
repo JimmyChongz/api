@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://satao.db.elephantsql.com/qzezdsiv
+    username: qzezdsiv
+    password: o8ZqJxvIsXji8lvUf0-gs26HtVzhl3hY
+    hikari:
+      maximum-pool-size: 2
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
